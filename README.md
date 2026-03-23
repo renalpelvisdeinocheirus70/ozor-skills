@@ -63,7 +63,7 @@ Analyzes existing Ozor prompts and rewrites them for better output quality. Scor
 
 ```bash
 # Clone and copy to your skills directory
-git clone https://github.com/ozor-ai/ozor-skills.git
+git clone https://github.com/Mintii-Labs/ozor-skills.git
 cp -r ozor-skills/skills/* ~/.claude/skills/
 ```
 
