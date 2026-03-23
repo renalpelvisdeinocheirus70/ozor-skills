@@ -1,0 +1,29 @@
+{
+  "name": "ozor-skills",
+  "version": "1.0.0",
+  "description": "Agent skills for Ozor.ai — AI video generation for product launches and marketing",
+  "author": "ozor-ai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ozor-ai/ozor-skills"
+  },
+  "keywords": [
+    "agent-skills",
+    "claude-code",
+    "claude-skills",
+    "skill-md",
+    "skillsmp",
+    "ozor",
+    "ai-video",
+    "video-generation",
+    "product-launch",
+    "marketing-video",
+    "codex-cli"
+  ],
+  "homepage": "https://www.ozor.ai",
+  "skills": {
+    "ozor-video-best-practices": "skills/ozor-video-best-practices",
+    "ozor-doc-to-video": "skills/ozor-doc-to-video"
+  }
+}
