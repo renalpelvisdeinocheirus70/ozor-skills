@@ -52,18 +52,24 @@ Not every changelog entry deserves a scene. Apply these rules:
 - Dependency updates
 - Documentation changes
 
-**Scene budget by change count:**
-- 1–3 changes: 3–4 scenes (intro + 1 per change + CTA)
-- 4–7 changes: 5–6 scenes (intro + top 3–4 changes + summary + CTA)
-- 8+ changes: 6–7 scenes (intro + top 4–5 changes + "and more" + CTA)
+**Scene budget by change count** (target ~1 scene per 3 seconds of video):
+- 1–3 changes: 6–8 scenes (intro + 2–3 per change + summary + CTA)
+- 4–7 changes: 10–15 scenes (intro + 2–3 per top change + summary + CTA)
+- 8+ changes: 15–20 scenes (intro + 2–3 per top change + "and more" + CTA)
 
 ### Phase 3 — Structure the Video
 
 Use this proven structure for release videos:
 
 1. **Intro / Version Badge** — Show the product name and version number with a clean animation. Set the tone: "What's new in [Product] [Version]"
-2. **Headline Feature** — The biggest change gets its own scene with the most visual attention. Show what it does, not just what it's called.
-3. **Feature Scenes** — One scene per prioritized change. Each scene: feature name as headline, one-sentence description, visual representation of the change.
+2. **Headline Feature (2–3 scenes)** — The biggest change gets multiple scenes with the most visual attention:
+   - *Title / What it is* — Feature name as headline with a one-sentence hook.
+   - *How it works / Visual* — Show the feature in action: a UI walkthrough, animation, or diagram.
+   - *Impact / Benefit* — Why this matters to the user. Show the outcome or result.
+3. **Additional Feature Scenes (2–3 scenes each)** — Each prioritized change gets its own mini-sequence:
+   - *Title / What it is* — Feature name and brief description.
+   - *Detail / Visual* — Show what changed visually: before/after, demo, or diagram.
+   - *(Optional) Benefit* — A short scene reinforcing the value if the change is significant enough.
 4. **Summary / "And More"** — If changes were deprioritized, add a scene listing them briefly: "Plus: [fix 1], [fix 2], [improvement 1]"
 5. **CTA** — "Update now", "Try it today", or "Read the full release notes at [URL]"
 
@@ -90,11 +96,19 @@ Create a [duration] release notes video for [Product] version [X.X].
 
 (1) Version Badge — [Product] logo centered on [dark/light] background. Version number "[X.X]" appears with a subtle animation. Subtext: "[Release date] — [tagline or change count summary]".
 
-(2) [Headline Feature Name] — [Specific visual direction: what the feature does, shown as a UI animation, diagram, or visual metaphor. Include exact text to display on screen.]
+(2) [Headline Feature Name] — Title card: feature name as bold headline. One-sentence hook: "[What this feature does in plain language]". [Visual: icon or graphic that represents the feature.]
 
-(3) [Feature Name] — [Visual direction]
+(3) [Headline Feature Name] Detail — [Show the feature in action: UI walkthrough, screen recording style animation, or step-by-step diagram. Include exact on-screen text.]
 
-[...continue for all scenes...]
+(4) [Headline Feature Name] Impact — [Why this matters: show the outcome, time saved, or before/after comparison. On-screen text: "[Key benefit statement]".]
+
+(5) [Feature 2 Name] — Title card: "[Feature name]" with one-line description. [Visual: icon, UI element, or metaphor.]
+
+(6) [Feature 2 Name] Detail — [Visual demonstration of the feature: what it looks like in use, how it works, or a key screenshot-style frame. Include on-screen text.]
+
+(7) [Feature 3 Name] — [Feature title + visual direction. For smaller features, a single scene combining title and demo is fine.]
+
+[...continue for remaining features, 2–3 scenes per major feature, 1 scene for minor features...]
 
 ([N-1]) And More — Clean list of remaining changes: "[fix 1]", "[improvement 1]", "[fix 2]". Each appears with a check mark animation.
 
@@ -155,5 +169,5 @@ Before presenting the final prompt, verify:
 1. **Every change that gets a scene must be visually described.** "Show the new dashboard" is not enough — describe what the dashboard looks like, what's animated, what text appears.
 2. **Never invent features.** Every change must come from the source changelog.
 3. **Prioritize user impact over technical impressiveness.** A small UX fix that users requested is more video-worthy than a large internal refactor.
-4. **Keep it punchy.** Release videos should be 30–60 seconds. Users want highlights, not documentation.
+4. **Keep it punchy.** Release videos should be 30–60 seconds. A 30-second video should have ~8–10 scenes; a 60-second video should have ~15–18 scenes (roughly 1 scene per 3 seconds). Users want highlights, not documentation.
 5. **Version number must be visible.** It appears in scene 1 and optionally in a persistent badge.

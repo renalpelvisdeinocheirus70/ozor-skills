@@ -36,30 +36,75 @@ These are copy-and-customize templates. Replace `[brackets]` with specifics.
 
 ### Product Launch
 ```
-Create a [duration] product launch video for [product name].
-Scenes: (1) Hook — one-line problem statement, (2) Solution — show the product in action, (3) Key benefits — 3 bullet points, (4) CTA — [your call to action].
+Create a 45-second product launch video for [product name].
+12 scenes:
+(1) Hook — bold one-line problem statement
+(2) Problem setup — show the pain point visually
+(3) Solution reveal — introduce [product name] as the answer
+(4) Product in action — show the main UI or experience
+(5) Feature 1 — [key feature with one-line benefit]
+(6) Feature 2 — [key feature with one-line benefit]
+(7) Feature 3 — [key feature with one-line benefit]
+(8) How it works — quick 3-step flow
+(9) Social proof — "[customer quote]" or key metric
+(10) Pricing/offer — "[pricing or launch offer]"
+(11) CTA — "[your call to action]"
+(12) Logo close — logo + tagline + URL
+
 Style: [minimal / bold / dark / light]. Brand colors: [colors]. Target audience: [who].
 ```
 
 ### Social Short (Vertical)
 ```
 Create a 15-second vertical video (9:16) for [platform].
-Scene 1: Bold hook — "[attention-grabbing statement]".
-Scene 2: Proof or punchline — [what makes it believable or interesting].
+5 scenes:
+(1) Hook — bold text: "[attention-grabbing statement]"
+(2) Problem — quick visual of the pain point
+(3) Solution — show the product or key idea in action
+(4) Proof — [metric, testimonial, or before/after]
+(5) CTA — "[short call to action]" with logo
+
 Style: [energetic / calm / funny]. Use large text and minimal background.
 ```
 
 ### Feature Announcement
 ```
-Make a [duration] video announcing [feature name] for [product].
-Explain the problem it solves in one sentence. Show how it works visually. Close with a short CTA.
+Make a 30-second video announcing [feature name] for [product].
+10 scenes:
+(1) Hook — "[feature name] is here" with bold text
+(2) Problem — the pain point this feature solves
+(3) Old way — how users handled it before (brief)
+(4) New way — introduce the feature visually
+(5) How it works — step 1 of the workflow
+(6) How it works — step 2 of the workflow
+(7) How it works — step 3 of the workflow
+(8) Key benefit — the single biggest improvement
+(9) Availability — who gets it and when
+(10) CTA — "[try it now / learn more]" with link
+
 Keep the tone [professional / casual / excited]. Use [brand color] as the primary accent.
 ```
 
 ### Explainer / How It Works
 ```
-Create a step-by-step explainer for [topic or process].
-Break it into [N] scenes, one step per scene. Number each step clearly.
+Create a 60-second step-by-step explainer for [topic or process].
+15 scenes:
+(1) Hook — "[topic] explained in 60 seconds"
+(2) Why it matters — one-line context for the audience
+(3) Overview — high-level diagram or flow
+(4) Step 1 — [first step with visual]
+(5) Step 1 detail — key tip or callout
+(6) Step 2 — [second step with visual]
+(7) Step 2 detail — key tip or callout
+(8) Step 3 — [third step with visual]
+(9) Step 3 detail — key tip or callout
+(10) Step 4 — [fourth step with visual]
+(11) Step 4 detail — key tip or callout
+(12) Common mistake — what to avoid
+(13) Pro tip — one expert recommendation
+(14) Recap — summary of all steps in one view
+(15) CTA — "[next action]" with link or resource
+
 Audience: [who this is for]. Tone: [simple and clear / technical / conversational].
 Use a [light / dark] background with [color] accents.
 ```
@@ -67,22 +112,60 @@ Use a [light / dark] background with [color] accents.
 ### Release Notes
 ```
 Create a release notes video for [product name] version [X.X].
-One scene per feature: [feature 1], [feature 2], [feature 3].
-Keep each scene to a single idea with minimal text. Close with "Try it now" CTA.
-Style: [clean / playful / technical]. Duration: ~[N] seconds.
+2–3 scenes per feature:
+(1) Intro — "What's new in [version]" with logo
+(2) Feature 1 title — [feature name] with one-line benefit
+(3) Feature 1 demo — show it in action
+(4) Feature 2 title — [feature name] with one-line benefit
+(5) Feature 2 demo — show it in action
+(6) Feature 3 title — [feature name] with one-line benefit
+(7) Feature 3 demo — show it in action
+(8) Recap — all features in a single summary view
+(9) CTA — "Try it now" with link
+
+Style: [clean / playful / technical]. Duration: ~30 seconds.
 ```
 
 ### Investor Update
 ```
-Create a [duration] investor update video for [company name].
-Scenes: (1) Headline metric — [e.g., MRR, users, growth %], (2) Key milestone — [what happened], (3) Product update — [what shipped], (4) Roadmap — [what's next], (5) Ask or CTA.
+Create a 45-second investor update video for [company name].
+15 scenes:
+(1) Title card — "[Company] Q[X] Update"
+(2) Headline metric — [e.g., MRR] with large number
+(3) Growth chart — visual trend over time
+(4) Key milestone 1 — [what happened]
+(5) Key milestone 2 — [what happened]
+(6) Revenue breakdown — key financial data
+(7) Customer highlight — notable win or logo
+(8) Product update 1 — [what shipped]
+(9) Product update 2 — [what shipped]
+(10) Team update — key hires or team growth
+(11) Roadmap — Q[X+1] priorities
+(12) Roadmap detail — top 2–3 initiatives
+(13) Key risk or challenge — [brief note]
+(14) The ask — [what you need from investors]
+(15) Close — logo + contact info
+
 Tone: confident and data-driven. Style: professional, dark background, clean typography.
 ```
 
 ### Tutorial / Walkthrough
 ```
 Create a step-by-step tutorial for [task or feature].
-[N] scenes, one step per scene. Number each step clearly.
+2–3 scenes per step:
+(1) Intro — "How to [task]" with context
+(2) Prerequisites — what you need before starting
+(3) Step 1 instruction — what to do
+(4) Step 1 visual — annotated screenshot or demo
+(5) Step 2 instruction — what to do
+(6) Step 2 visual — annotated screenshot or demo
+(7) Step 3 instruction — what to do
+(8) Step 3 visual — annotated screenshot or demo
+(9) Step 4 instruction — what to do
+(10) Step 4 visual — annotated screenshot or demo
+(11) Result — show the finished outcome
+(12) CTA — "Learn more at [link]"
+
 Use "Next:" transitions between scenes. Include annotated screenshots where possible.
 Audience: [who]. Tone: [friendly / technical / conversational].
 ```
@@ -101,13 +184,13 @@ The classic flow that works for almost any video: **Intro → Problem → Soluti
 
 For longer videos, extend the middle: **Intro → Problem → Solution → Benefits → Proof → CTA**
 
-Scene count guidelines by use case:
-- Social ads: 2–3 scenes
-- Product launches: 4–5 scenes
-- Explainers: 5–7 scenes
-- Investor updates: 5–6 scenes
-- Release notes: 1 scene per feature
-- Tutorials: 1 scene per step
+Scene count guidelines by use case (aim for ~1 scene per 3 seconds):
+- Social ads: 5–8 scenes (15–30s)
+- Product launches: 10–15 scenes (45–60s)
+- Explainers: 12–20 scenes (60–90s)
+- Investor updates: 12–15 scenes (45–60s)
+- Release notes: 2–3 scenes per feature
+- Tutorials: 2–3 scenes per step
 
 ## Format Selection
 
@@ -188,11 +271,19 @@ Always produce a complete, copy-pasteable prompt the user can drop directly into
 **You produce:**
 ```
 Create a 45-second launch video for [App Name], a [one-line description].
-4 scenes:
+12 scenes:
 (1) Hook — "[pain point the audience feels]"
-(2) Solution — show the app's main screen with [key feature] in action
-(3) Benefits — 3 short bullet points: [benefit 1], [benefit 2], [benefit 3]
-(4) CTA — "Try it free at [url]"
+(2) Problem — show the frustration visually
+(3) Solution reveal — introduce [App Name] with logo
+(4) Product in action — show the app's main screen with [key feature]
+(5) Feature 1 — [benefit 1] with quick demo
+(6) Feature 2 — [benefit 2] with quick demo
+(7) Feature 3 — [benefit 3] with quick demo
+(8) How it works — 3-step setup flow
+(9) Social proof — "[customer quote or key metric]"
+(10) Pricing — "Free to start" or [pricing info]
+(11) CTA — "Try it free at [url]"
+(12) Logo close — [App Name] logo + tagline
 
 Style: dark background, clean typography, [brand color] accents.
 Audience: [target audience].
