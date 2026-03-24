@@ -35,16 +35,16 @@ Read the full document and identify:
 
 | Document Type | Best Video Type | Recommended Scenes | Format |
 |--------------|----------------|-------------------|--------|
-| Pitch deck | Product launch / explainer | 4–6 | 16:9 |
-| Blog post | Explainer or social clip | 3–5 (explainer) or 2–3 (social) | 16:9 or 9:16 |
-| README | Product demo / explainer | 4–5 | 16:9 |
-| Release notes | Feature announcement | 1 per feature + intro/outro | 16:9 |
-| Changelog | Release notes video | 1 per feature | 16:9 |
-| SOP / handbook | Training / onboarding video | 5–7 | 16:9 |
-| Sales one-pager | Product launch / social ad | 3–4 | 16:9 or 9:16 |
-| Landing page | Social clip or launch video | 3–4 | 9:16 for social, 16:9 for web |
-| Report / whitepaper | Explainer | 5–7 | 16:9 |
-| Investor update | Investor update video | 5–6 | 16:9 |
+| Pitch deck | Product launch / explainer | 10–15 | 16:9 |
+| Blog post | Explainer or social clip | 8–12 (explainer) or 5–8 (social) | 16:9 or 9:16 |
+| README | Product demo / explainer | 10–12 | 16:9 |
+| Release notes | Feature announcement | 2–3 per feature + intro/outro | 16:9 |
+| Changelog | Release notes video | 2–3 per feature | 16:9 |
+| SOP / handbook | Training / onboarding video | 12–20 | 16:9 |
+| Sales one-pager | Product launch / social ad | 8–10 | 16:9 or 9:16 |
+| Landing page | Social clip or launch video | 8–10 | 9:16 for social, 16:9 for web |
+| Report / whitepaper | Explainer | 12–18 | 16:9 |
+| Investor update | Investor update video | 12–15 | 16:9 |
 
 5. **Key content blocks** — extract the material that should become scenes:
    - Headlines, section titles, key claims
@@ -61,9 +61,10 @@ Map the document content to Ozor scenes. Each scene gets one clear job.
 
 **The universal structure that works for 80% of documents:**
 1. **Hook / Intro** — the most compelling claim or problem statement from the document
-2. **Core content** — 2–5 scenes covering the main substance, one idea per scene
-3. **Proof / Support** — metrics, quotes, or evidence (if available)
-4. **CTA / Closing** — what should the viewer do next?
+2–3. **Problem setup** — 1–2 scenes establishing the pain point or context
+4–10. **Core content** — one idea per scene, aim for density (features, benefits, steps, evidence)
+11–12. **Proof / Support** — metrics, quotes, testimonials, or evidence (if available)
+13. **CTA / Closing** — what should the viewer do next?
 
 **Rules for scene construction:**
 - One idea per scene. If a section covers multiple topics, split it.
@@ -73,11 +74,11 @@ Map the document content to Ozor scenes. Each scene gets one clear job.
 - Preserve all critical numbers, claims, and facts. Simplify the language, never the substance.
 
 **Duration heuristics:**
-- Social clips: 15–30 seconds (2–3 scenes)
-- Feature announcements: 30–45 seconds (3–4 scenes)
-- Product launches: 45–60 seconds (4–5 scenes)
-- Explainers: 60–90 seconds (5–7 scenes)
-- Training / onboarding: 2–5 minutes (7–12 scenes, consider splitting into multiple videos)
+- Social clips: 15–30 seconds (5–10 scenes)
+- Feature announcements: 30–45 seconds (8–12 scenes)
+- Product launches: 45–60 seconds (12–15 scenes)
+- Explainers: 60–90 seconds (15–22 scenes)
+- Training / onboarding: 2–5 minutes (20–40 scenes, consider splitting into multiple videos)
 
 If the document is very long (10+ pages), cap at 7 scenes for a single video and recommend a series. Note what was deprioritized and suggest follow-up videos.
 
@@ -212,15 +213,31 @@ Don't automatically produce all variants. Instead, mention that variants are ava
 
 Create a 45-second product launch video for TaskFlow, a project management app for fast-moving teams.
 
-4 scenes:
+12 scenes:
 
-(1) The Problem — Bold white text on dark background: "Your team is drowning in Slack threads, spreadsheets, and missed deadlines." Quick-cut animations of notification chaos.
+(1) Hook — Bold white text on dark background: "Your team is drowning in Slack threads, spreadsheets, and missed deadlines." Quick-cut animations of notification chaos.
 
-(2) The Solution — Show TaskFlow's dashboard with a clean task board. Text overlay: "TaskFlow puts everything in one place." Smooth zoom-in animation on the main interface.
+(2) Problem Elaboration — Split-screen showing a frustrated team lead toggling between 5 different apps. Text overlay: "The average team uses 9 tools to manage one project."
 
-(3) Key Benefits — 3 animated bullet points appearing one by one: "Real-time collaboration", "Automated standups", "Built-in time tracking". Each with a small icon.
+(3) The Solution — TaskFlow logo animates in with a tagline: "TaskFlow puts everything in one place." Clean reveal, confident.
 
-(4) CTA — Large text: "Try TaskFlow free." Subtext: "taskflow.app". Logo animation in the center.
+(4) Dashboard Overview — Show TaskFlow's main dashboard with a clean task board, calendar view, and team activity feed. Smooth zoom-in animation on the interface.
+
+(5) Feature 1: Real-Time Collaboration — Screen recording style: two cursors editing the same task simultaneously. Text overlay: "Real-time collaboration — no more version conflicts."
+
+(6) Feature 2: Automated Standups — Animated mockup of a standup summary appearing in a channel. Text overlay: "Automated standups — skip the meeting, keep the context."
+
+(7) Feature 3: Built-In Time Tracking — Timer animation starts on a task card, then rolls up into a weekly report. Text overlay: "Built-in time tracking — from task to invoice."
+
+(8) How It Works — 3-step animated flow: "Create a project → Invite your team → Ship faster." Each step transitions smoothly with icons and connecting arrows.
+
+(9) Social Proof — Counter animation: "2,400+ teams" → "1.2M tasks completed" → "4.9★ average rating". Numbers tick up on a dark background with blue accents.
+
+(10) Testimonial — Quote card with a headshot: "TaskFlow replaced 4 tools for us. We shipped 2x faster in the first month." — Sarah Chen, CTO at LaunchPad. Subtle fade-in.
+
+(11) Pricing / Offer — Text overlay: "Free for teams up to 10. Pro starts at $8/seat." Clean layout with a checkmark list of what's included.
+
+(12) CTA + Logo Close — Large text: "Try TaskFlow free." Subtext: "taskflow.app". Logo animation in the center, electric blue glow.
 
 Style: dark background, clean and modern, white text with electric blue (#3B82F6) accents.
 Tone: confident and punchy — no fluff.

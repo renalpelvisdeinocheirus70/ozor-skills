@@ -63,7 +63,7 @@ For each platform, produce a complete Ozor prompt. Each prompt is self-contained
 **Instagram Reels:**
 - Hook must land in the first 1–2 seconds (bold text or surprising visual)
 - Use large, readable text (viewers watch on small screens)
-- 2–3 scenes max for 15s, 3–4 for 30s
+- 5 scenes for 15s, 8–10 for 30s
 - End with a clear CTA: "Link in bio", "Save this", "Share with a friend"
 - Tone: visually bold, trend-aware, aspirational or relatable
 
@@ -71,7 +71,7 @@ For each platform, produce a complete Ozor prompt. Each prompt is self-contained
 - Start with a pattern interrupt: bold claim, question, or "POV:" setup
 - Text overlays on every scene — TikTok is watched on mute by default
 - Casual, direct tone — avoid corporate speak
-- 3–5 scenes for 30–60s
+- 8–10 scenes for 30s, 12–18 for 60s
 - End with engagement hook: "Comment if you agree", "Follow for more", "Stitch this"
 - Pacing: fast cuts, no lingering shots
 
@@ -79,21 +79,21 @@ For each platform, produce a complete Ozor prompt. Each prompt is self-contained
 - Can be slightly more informative and structured than TikTok
 - Number-driven hooks work well: "3 reasons...", "The #1 mistake..."
 - Clean visuals, readable text
-- 3–5 scenes for 30–60s
+- 8–10 scenes for 30s, 12–18 for 60s
 - CTA: "Subscribe for more", "Full video on our channel"
 
 **LinkedIn:**
 - Lead with a business insight, data point, or professional take
 - Professional tone — confident, not salesy
 - Can include metrics, charts, industry stats
-- 4–5 scenes for 30–60s
+- 8–10 scenes for 30s, 12–15 for 60s
 - CTA: "Learn more at [URL]", "What do you think? Comment below"
 - 16:9 landscape format
 
 **X (Twitter):**
 - Ultra-concise — get to the point immediately
 - Opinion or hot take as the hook
-- 2–3 scenes for 15–30s
+- 5 scenes for 15s, 8–10 for 30s
 - Minimal text per scene — one sentence max
 - CTA: provocative question or link to learn more
 - 16:9 landscape format
@@ -101,7 +101,7 @@ For each platform, produce a complete Ozor prompt. Each prompt is self-contained
 **Facebook Reels:**
 - Broader audience — keep it accessible
 - Clear, simple message
-- 2–3 scenes for 15–30s
+- 5 scenes for 15s, 8–10 for 30s
 - Shareable factor: "Tag someone who needs this"
 - Family-friendly tone
 
@@ -109,7 +109,7 @@ For each platform, produce a complete Ozor prompt. Each prompt is self-contained
 - Aesthetic-first — visual quality matters most
 - Inspirational or educational angle
 - Slower pacing than other platforms
-- 2–3 scenes for 15–30s
+- 5 scenes for 15s, 8–10 for 30s
 - CTA: "Save for later", "Pin this"
 
 ### Phase 4 — Output Format
@@ -133,13 +133,17 @@ Present all prompts in a structured, easy-to-use format:
 
 Create a 15-second vertical video (9:16) for Instagram Reels about [topic].
 
-[N] scenes:
+5 scenes:
 
 (1) Hook — [Bold text animation: "[attention-grabbing statement]". Large white text on [color] background. Must grab attention in under 1 second.]
 
-(2) [Scene] — [Direction]
+(2) [Scene] — [Direction for key visual or product shot]
 
-(3) CTA — [Direction with platform-specific CTA]
+(3) [Scene] — [Direction for benefit, demo, or proof point]
+
+(4) [Scene] — [Direction for social proof, result, or reinforcement]
+
+(5) CTA — [Direction with platform-specific CTA]
 
 Style: [bold / energetic / clean]. Large text, minimal background. Mobile-first design.
 Tone: [casual / aspirational / relatable].

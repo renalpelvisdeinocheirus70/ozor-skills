@@ -56,12 +56,12 @@ Based on the page type and likely distribution channel:
 
 | Page Type | Primary Video | Secondary Video |
 |-----------|--------------|-----------------|
-| Landing page | 30–45s product launch (16:9) | 15s social teaser (9:16) |
-| Homepage | 45–60s brand overview (16:9) | 30s product highlight (9:16) |
-| Product page | 30–45s feature explainer (16:9) | 15s feature teaser (9:16) |
-| Pricing page | 30s plan comparison (16:9) | — |
-| About page | 45–60s brand story (16:9) | — |
-| App listing | 15–30s app preview (9:16) | 30s full demo (16:9) |
+| Landing page | 30–45s product launch, 8–12 scenes (16:9) | 15s social teaser, 5 scenes (9:16) |
+| Homepage | 45–60s brand overview, 12–15 scenes (16:9) | 30s product highlight, 8–10 scenes (9:16) |
+| Product page | 30–45s feature explainer, 8–12 scenes (16:9) | 15s feature teaser, 5 scenes (9:16) |
+| Pricing page | 30s plan comparison, 8–10 scenes (16:9) | — |
+| About page | 45–60s brand story, 12–15 scenes (16:9) | — |
+| App listing | 15–30s app preview, 5–10 scenes (9:16) | 30s full demo, 8–10 scenes (16:9) |
 
 Always produce the primary video. Mention the secondary as an option.
 
@@ -69,29 +69,51 @@ Always produce the primary video. Mention the secondary as an option.
 
 Map page sections to video scenes:
 
-**For hero-driven landing pages (most common):**
+**For hero-driven landing pages (most common, ~10–12 scenes):**
 
 1. **Hook** — the hero headline, animated boldly. This is the page's main claim.
-2. **Problem** — if the page states a pain point, show it. If not, imply it from the solution.
-3. **Solution** — the product in action. Use the page's primary screenshot or describe the UI.
-4. **Benefits** — 2–3 key value props, one per beat or as animated bullet points.
-5. **Social Proof** — customer count, logos, or a testimonial quote (if available).
-6. **CTA** — the page's call to action with the URL.
+2. **Problem statement** — if the page states a pain point, show it. If not, imply it from the solution.
+3. **Problem elaboration** — expand on the frustration or cost of the status quo. Use a stat or relatable scenario from the page.
+4. **Solution intro** — introduce the product by name with a one-line description. Transition from the problem.
+5. **Solution detail** — the product in action. Use the page's primary screenshot or describe the UI in motion.
+6. **Benefit 1** — first key value prop, shown as bold text with a supporting visual or icon animation.
+7. **Benefit 2** — second key value prop, same treatment.
+8. **Benefit 3** — third key value prop, same treatment.
+9. **Social proof — metrics** — customer count, usage stats, or performance numbers with counter animations.
+10. **Social proof — logos/testimonials** — trusted-by logos scrolling, or a short testimonial quote with attribution.
+11. **CTA text** — the page's call to action displayed as bold animated text.
+12. **CTA with URL and logo** — "[Exact CTA]" with the page URL and product logo. Clean fade-out.
 
-**For multi-section homepages:**
+**For multi-section homepages (~12–15 scenes):**
 
-1. **Hook** — hero headline
-2. **What It Does** — one-sentence product description with visual
-3. **Key Features** — top 3 features, one scene or one animated list
-4. **Social Proof** — metrics or logos
-5. **CTA** — primary action
+1. **Hook** — hero headline, animated boldly on a branded background.
+2. **Subheadline** — hero subtext or one-sentence product description with visual.
+3. **Product overview** — high-level what-it-does scene with a screenshot or product visual.
+4. **Feature 1 intro** — name and one-line benefit of the first key feature.
+5. **Feature 1 visual** — screenshot, animation, or icon illustrating the feature in action.
+6. **Feature 2 intro** — name and one-line benefit of the second key feature.
+7. **Feature 2 visual** — supporting visual for the second feature.
+8. **Feature 3 intro** — name and one-line benefit of the third key feature.
+9. **Feature 3 visual** — supporting visual for the third feature.
+10. **Integration / ecosystem** — partner logos, integrations, or platform reach (if on the page).
+11. **Social proof — metrics** — customer count, usage stats, or performance numbers.
+12. **Social proof — logos/testimonials** — trusted-by logos or a testimonial quote.
+13. **Pricing or differentiator** — a quick mention of pricing advantage or key differentiator (if present).
+14. **CTA text** — primary call to action as bold animated text.
+15. **CTA with URL and logo** — CTA with page URL and product logo. Clean fade-out.
 
-**For product/feature pages:**
+**For product/feature pages (~8–10 scenes):**
 
-1. **Hook** — feature name + one-line benefit
-2. **How It Works** — 2–3 step walkthrough
-3. **Result** — what the user achieves
-4. **CTA** — try this feature
+1. **Hook** — feature name + one-line benefit, bold animated text.
+2. **Problem** — the pain point this feature solves.
+3. **How It Works — Step 1** — first step of the workflow, with a UI screenshot or diagram.
+4. **How It Works — Step 2** — second step, continuing the visual walkthrough.
+5. **How It Works — Step 3** — third step, showing the flow in action.
+6. **Result** — what the user achieves. Show the outcome with a before/after or final-state visual.
+7. **Key differentiator** — what makes this feature unique vs. alternatives (speed, accuracy, ease).
+8. **Social proof** — a relevant testimonial, metric, or case study tied to this feature.
+9. **CTA text** — "Try [feature name]" or the page's specific call to action.
+10. **CTA with URL and logo** — CTA with page URL and product logo. Clean fade-out.
 
 ### Phase 4 — Generate the Ozor Prompt
 
@@ -114,13 +136,27 @@ Create a [duration] [video type] video for [Product Name], [one-line description
 
 (1) Hook — [Hero headline from the page, displayed as bold animated text on a [dark/light] background. Style matches the page's visual tone.]
 
-(2) [Scene title] — [Specific visual direction derived from page content]
+(2) Problem statement — [Pain point or frustration the target audience faces, derived from page copy. Visual: text animation or relatable icon.]
 
-(3) [Scene title] — [Specific visual direction]
+(3) Problem elaboration — [Expand on the cost or consequence of the status quo. Use a stat or scenario from the page.]
 
-[...continue...]
+(4) Solution intro — [Product name + one-line description. Transition from problem to solution. Visual: product logo reveal or name animation.]
 
-([N]) CTA — "[Exact CTA from page]" with URL "[page URL]". [Product] logo. Clean fade-out.
+(5) Solution detail — [The product in action. Describe the UI, dashboard, or key interaction. Visual: screenshot or screen recording style animation.]
+
+(6) Benefit 1 — [First value prop from the page, as bold text with supporting icon or visual.]
+
+(7) Benefit 2 — [Second value prop, same treatment.]
+
+(8) Benefit 3 — [Third value prop, same treatment.]
+
+(9) Social proof — metrics — [Customer count, usage stats, or performance numbers with counter animation.]
+
+(10) Social proof — logos/testimonials — [Trusted-by logos scrolling, or testimonial quote with attribution.]
+
+(11) CTA text — ["Exact CTA from page" displayed as bold animated text. Build urgency or excitement.]
+
+(12) CTA with URL and logo — ["Exact CTA from page" with URL "[page URL]". [Product] logo. Clean fade-out.]
 
 Style: [derived from page — minimal/bold/playful/corporate]. Background: [dark/light based on page design]. Primary color: [extracted from page, e.g., "#3B82F6"]. Typography: [clean/modern/serif based on page].
 Tone: [derived from page copy — confident/friendly/technical/energetic].
@@ -141,7 +177,7 @@ Audience: [derived from page messaging].
 **If the page is text-heavy (long-form landing page):**
 - Extract only the headlines and key claims
 - Ignore detailed paragraphs — video must be punchy
-- Cap at 5–6 scenes regardless of page length
+- Cap at 10–12 scenes regardless of page length
 - Suggest a series if the page covers multiple distinct topics
 
 **If the page is minimal (sparse startup landing page):**
