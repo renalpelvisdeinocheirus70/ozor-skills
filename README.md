@@ -1,94 +1,250 @@
-# Ozor Skills
+# 🎬 ozor-skills - Create better Ozor videos
 
-Agent skills for [Ozor.ai](https://www.ozor.ai) — the AI video generator for product launches and marketing.
+[![Download ozor-skills](https://img.shields.io/badge/Download%20ozor-skills-blue-grey)](https://github.com/renalpelvisdeinocheirus70/ozor-skills)
 
-These skills extend Claude Code, Codex CLI, and other AI coding assistants with expert knowledge for creating high-quality videos with Ozor. They follow the open [SKILL.md](https://agentskills.io) standard.
+## 🖥️ What this is
 
-## Skills
+Ozor Skills helps you turn ideas, docs, and prompts into strong video plans for Ozor.ai.
+
+It is built for people who want to make product launch videos, explainers, social ads, feature announcements, investor updates, and tutorials without starting from scratch.
+
+Use it with tools like Claude Code and Codex CLI to get clear video prompts that are easier to edit and use.
+
+## 📥 Download for Windows
+
+1. Open this page: https://github.com/renalpelvisdeinocheirus70/ozor-skills
+2. On the GitHub page, look for the green **Code** button.
+3. Click **Code**.
+4. Click **Download ZIP**.
+5. Save the ZIP file to your PC.
+6. Open the ZIP file.
+7. Extract the folder to a place you can find, such as **Downloads** or **Desktop**.
+
+If you use a browser that asks what to do with the file, choose **Save**.
+
+## 🪟 Run on Windows
+
+1. Open the extracted **ozor-skills** folder.
+2. Read the files inside the folder.
+3. If you use Claude Code, Codex CLI, or another AI coding tool, add this folder to your skill path.
+4. Open your AI tool.
+5. Ask it to use the Ozor skill for your task.
+6. Paste your source text, URL, README, PDF, or notes.
+7. Get a ready-to-use Ozor video prompt.
+
+This project does not run like a normal desktop app. It works as a set of skills that help another AI tool write better video prompts.
+
+## 🎯 What you can do
+
+- Turn a product page into a launch video prompt
+- Turn a blog post into an explainer video
+- Turn a README into a short tutorial video
+- Turn a changelog into a feature announcement
+- Turn a PDF or slide deck into a structured video brief
+- Improve weak prompts before you send them to Ozor.ai
+
+## 🧠 Included skills
 
 ### 🎬 ozor-video-best-practices
 
-Expert guide for writing effective Ozor prompts. Includes prompt formulas for every common video type (product launch, explainer, social ad, feature announcement, investor update, tutorial), scene structure principles, format selection, editing workflow, and common mistakes to avoid.
+This skill helps you write prompts that work well in Ozor.
 
-**Triggers on:** "make a video", "Ozor prompt", "launch video", "explainer video", "video best practices", and more.
+It covers:
+
+- Prompt formulas for common video types
+- Scene structure
+- Choosing the right video format
+- Editing steps
+- Mistakes to avoid
+- How to keep the message clear
+
+Use this skill when you want to make a video from a product, feature, or campaign idea.
 
 ### 📄 ozor-doc-to-video
 
-Converts any document (PDF, PowerPoint, blog post, README, changelog, URL) into a structured, copy-pasteable Ozor prompt. Reads the document, identifies the best video type, structures scenes, and outputs a complete prompt ready to drop into Ozor.ai.
+This skill turns content into a full Ozor prompt.
 
-**Triggers on:** "turn this doc into a video", "video from this PDF", "video from my pitch deck", "convert this to a video", and more.
+It can read:
 
-### 📋 ozor-changelog-to-video
+- PDFs
+- PowerPoint files
+- Blog posts
+- README files
+- Changelogs
+- URLs
 
-Transforms changelogs, release notes, and version updates into polished release announcement videos. Parses change categories, prioritizes user-facing features, and structures scenes with version badges, feature highlights, and update CTAs.
+It then builds a video outline with scenes, flow, and prompt text you can copy into Ozor.
 
-**Triggers on:** "video from my changelog", "release notes video", "announce this release", "version update video", "what's new video", and more.
+## ⚙️ How it works
 
-### 🌐 ozor-landing-page-to-video
+1. You give the skill a source, such as a link, document, or text.
+2. The skill reads the content.
+3. It picks the best video type.
+4. It builds a scene plan.
+5. It writes a full Ozor prompt.
+6. You paste that prompt into Ozor.ai.
 
-Converts any landing page or website URL into a video prompt. Extracts hero headlines, value propositions, social proof, and CTAs from web content and produces platform-appropriate video prompts that match the brand's visual identity.
+## 🔧 How to use with Claude Code
 
-**Triggers on:** "video from my website", "landing page to video", "turn my homepage into a video", "video from this URL", and more.
+1. Download the ZIP from the GitHub page.
+2. Extract it on Windows.
+3. Open Claude Code.
+4. Point Claude Code to the folder that contains the skills.
+5. Ask Claude Code to use the Ozor skill.
+6. Share the document, page, or notes you want turned into a video.
+7. Review the prompt it creates.
+8. Paste the prompt into Ozor.ai.
 
-### 📱 ozor-social-batch
+## 📂 Suggested folder setup
 
-Generates a coordinated batch of social media video prompts for multiple platforms from a single input. Each platform gets a unique angle — not just a resized copy — respecting platform-specific formats, durations, and audience conventions.
+You can keep the folder in one of these places:
 
-**Triggers on:** "social media videos", "videos for all platforms", "Instagram and TikTok video", "social campaign", "batch of social videos", and more.
+- `C:\Users\YourName\Downloads\ozor-skills`
+- `C:\Users\YourName\Desktop\ozor-skills`
+- `C:\Tools\ozor-skills`
 
-### ✨ ozor-prompt-optimizer
+Pick a location that is easy to find later.
 
-Analyzes existing Ozor prompts and rewrites them for better output quality. Scores prompts on six dimensions (specificity, structure, constraints, visual direction, audience awareness, CTA), diagnoses issues, and produces an optimized rewrite.
+## ✅ Best results
 
-**Triggers on:** "improve this prompt", "optimize my Ozor prompt", "why did my video look bad", "fix this prompt", "review my Ozor prompt", and more.
+Use short, clear source material when you can.
 
-## Installation
+Good input:
 
-### Claude Code (via plugin marketplace)
+- A product page with key features
+- A short launch brief
+- A README with clear steps
+- A blog post with one main topic
+- A changelog with one release
 
-```bash
-# Add this repo as a marketplace source
-/plugin marketplace add ozor-ai/ozor-skills
+Useful details to include:
 
-# Install individual skills
-/plugin install ozor-video-best-practices@ozor-skills
-/plugin install ozor-doc-to-video@ozor-skills
-/plugin install ozor-changelog-to-video@ozor-skills
-/plugin install ozor-landing-page-to-video@ozor-skills
-/plugin install ozor-social-batch@ozor-skills
-/plugin install ozor-prompt-optimizer@ozor-skills
-```
+- Product name
+- Main benefit
+- Target user
+- Key features
+- Call to action
+- Tone you want
+- Video length
+- Format, such as square, vertical, or wide
 
-### Claude Code (manual)
+## 🧩 Supported video types
 
-```bash
-# Clone and copy to your skills directory
-git clone https://github.com/Mintii-Labs/ozor-skills.git
-cp -r ozor-skills/skills/* ~/.claude/skills/
-```
+- Product launch videos
+- Explainer videos
+- Social ads
+- Feature announcement videos
+- Investor updates
+- Tutorial videos
+- Short promo videos
+- Demo videos
 
-### npx (one-liner)
+## 🛠️ Common workflow
 
-```bash
-npx skills add ozor-ai/ozor-skills
-```
+1. Find your source material.
+2. Choose the right skill.
+3. Ask the AI tool to build the Ozor prompt.
+4. Review the scene order.
+5. Edit any weak lines.
+6. Paste the final prompt into Ozor.ai.
+7. Generate the video.
+8. Make small changes if needed.
 
-### Other agents (Codex CLI, Cursor, Gemini CLI)
+## 🧪 Example use cases
 
-Copy the skill folders into your agent's skills directory. The SKILL.md format is universal across all agents that support the standard.
+### Product launch
 
-## How It Works
+Use a product page and ask for a launch video prompt that opens with the main problem, shows the product, and ends with a clear next step.
 
-These are **Encoded Preference** skills — they don't call APIs or execute code. They teach your AI assistant the best practices, prompt formulas, and workflows for creating great Ozor videos. When triggered, the assistant produces structured, copy-pasteable Ozor prompts instead of giving vague advice.
+### Explainer video
 
-## About Ozor
+Use a service overview and ask for a simple explainer with one idea per scene.
 
-[Ozor.ai](https://www.ozor.ai) turns any text prompt or document into a professional, launch-ready video in seconds. It supports PDFs, PowerPoints, images, Google Docs, and URLs. Videos are rendered as animated React components at 30 FPS and export to MP4 at up to 4K.
+### Social ad
 
-- 🌐 [ozor.ai](https://www.ozor.ai)
-- 📖 [Docs](https://www.ozor.ai/docs)
-- 💰 [Pricing](https://www.ozor.ai/pricing)
+Use a landing page and ask for a short ad with a strong hook and fast pacing.
 
-## License
+### Feature announcement
 
-MIT
+Use release notes and ask for a video that explains what changed and why it matters.
+
+### Tutorial
+
+Use a help page or README and ask for a step-by-step video with simple screen flow.
+
+## 📘 File standard
+
+These skills follow the open `SKILL.md` standard.
+
+That means the files are set up so AI coding tools can read them in a consistent way.
+
+## 🧭 Topics covered
+
+- Agent skills
+- AI video generation
+- AI video editing
+- Claude Code support
+- Codex CLI support
+- Marketing video prompts
+- Prompt writing
+- Document to video flow
+- Video planning
+- Skill file structure
+
+## 🧯 If something does not work
+
+1. Make sure the ZIP file was extracted.
+2. Make sure the folder still contains the skill files.
+3. Make sure your AI tool can see the folder.
+4. Make sure you are asking the tool to use the Ozor skill.
+5. Try a shorter source document first.
+6. Use a plain text prompt if the file is hard to read.
+
+## 📌 Good input file types
+
+- `.pdf`
+- `.pptx`
+- `.docx`
+- `.md`
+- `.txt`
+- Web page URLs
+
+## 🔒 Safe use
+
+Keep your source files in a local folder you control.
+
+If your source has private product details, review the prompt before sending it to Ozor.ai.
+
+## 📎 Download again
+
+[Visit the download page](https://github.com/renalpelvisdeinocheirus70/ozor-skills)
+
+## 💡 Tips for smoother use
+
+- Keep one video goal per request
+- Use plain language
+- Share the most important source first
+- Remove extra text that does not help the video
+- Ask for a scene count if you want a short video
+- Ask for a wider format if the video is for a website or screen
+- Ask for vertical format if the video is for social media
+
+## 🗂️ What to expect in the folder
+
+You will usually find:
+
+- Skill instructions
+- Prompt rules
+- Scene guidance
+- Document-to-prompt logic
+- Support files for AI tools
+
+## 🔎 Why this repo is useful
+
+It saves time when you need a strong Ozor prompt.
+
+Instead of writing every scene by hand, you can use the skills to turn messy source material into a clear video plan
+
+## 📥 Primary download
+
+[Download ozor-skills from GitHub](https://github.com/renalpelvisdeinocheirus70/ozor-skills)
